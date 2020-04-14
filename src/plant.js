@@ -24,6 +24,10 @@ export const changeState = (prop) => {
 
 // We create two functions using our function factory. We could easily create many more.
 
+export const feed = changeState("soil");
+export const hydrate = changeState("water");
+export const giveLight = changeState("light");
+
 export const blueFood = changeState("soil")(5)
 export const greenFood = changeState("soil")(10)
 export const yuckyFood = changeState("soil")(-5)
