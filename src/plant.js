@@ -1,6 +1,6 @@
+// This function stores our state.
 
-
-const storeState = () => {
+export const storeState = () => {
   let currentState = {};
   return (stateChangeFunction) => {
     const newState = stateChangeFunction(currentState);
@@ -9,23 +9,20 @@ const storeState = () => {
   }
 }
 
-const stateChanger = storeState();
+export const stateChanger = storeState();
 
-const changeState = (prop) => {
+// This is a function factory. We can easily create more specific functions that alter a plant's soil, water, and light to varying degrees.
+
+export const changeState = (prop) => {
   return (value) => {
     return (state) => ({
       ...state,
       [prop] : (state[prop] || 0) + value
-    }) 
+    })
   }
 }
 
-const feed = changeState("soil");
-const blueFood = changeState("soil")(5);
+// We create two functions using our function factory. We could easily create many more.
 
-$(document).ready(function() {
-  $('#feed').click(function() {
-    const newState = stateChanger(blueFood);
-    $('#soil-value').text(newState.soil);
-  });
-});
+export const feed = changeState("soil");
+export const blueFood = changeState("soil")(5);
