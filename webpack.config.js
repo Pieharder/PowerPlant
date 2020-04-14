@@ -18,7 +18,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'template', // Add title!
+      title: 'power_plant',
       template: './src/index.html',
       inject: 'body'
     }),
@@ -34,14 +34,9 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jp(e*)g|svg)$/,
-        use: [{
-            loader: 'url-loader',
-            options: {
-                limit: 8000,
-                name: 'images/[hash]-[name].[ext]'
-            }
-        }]
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader"
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
@@ -52,9 +47,10 @@ module.exports = {
         ],
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "eslint-loader"
+        test:/\.html$/,
+        use: [
+          'html-loader'
+        ]
       }
     ]
   }
