@@ -1,12 +1,12 @@
-# _Template for Epicodus JavaScript/Webpack/npm Projects_
+# _Power Plant_
 
-#### _3 Feb. 2020_
+#### _14 April 2020_
 
-#### By my name jeff_****_
+#### _Brandan Sayarath, Zakkrey Short, Geoff Goetz_
 
 ## Description
 
-_A template that builds development and production environments for a new project._
+_This is a project to care for a plant._
 
 ## Setup/Installation Requirements
 
@@ -30,7 +30,7 @@ _Please visit the [Node.js website](https://nodejs.org/en/download/) for install
 
 _Clone this repository via Terminal using the following commands:_
 * _$ cd desktop_
-* _$ git clone https://github.com//template_
+* _$ git clone https://github.com/Pieharder/PowerPlant_
 * _$ cd template_
 
 _Then, confirm that you have navigated to the template project directory by entering "pwd" in Terminal._
@@ -43,10 +43,16 @@ _Open the contents of the journal directory in a text editor or IDE of your choi
 
 ## Technologies Used
 
-_Git, HTML, CSS, JavaScript, npm, webpack_
+* _Git_
+* _HTML_ 
+* _CSS_ 
+* _JavaScript_ 
+* _jQuery_
+* _npm_ 
+* _Webpack_
 
 ### License
 
 *This webpage is licensed under the MIT license.*
 
-Copyright (c) 2020 **__**
+Copyright (c) 2020 **_Brandan Sayarath, Zakkrey Short, Geoff Goetz_**
