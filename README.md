@@ -2,7 +2,7 @@
 
 #### _3 Feb. 2020_
 
-#### By _**Michelle Morin**_
+#### By _****_
 
 ## Description
 
@@ -30,7 +30,7 @@ _Please visit the [Node.js website](https://nodejs.org/en/download/) for install
 
 _Clone this repository via Terminal using the following commands:_
 * _$ cd desktop_
-* _$ git clone https://github.com/michelle-morin/template_
+* _$ git clone https://github.com//template_
 * _$ cd template_
 
 _Then, confirm that you have navigated to the template project directory by entering "pwd" in Terminal._
@@ -49,4 +49,4 @@ _Git, HTML, CSS, JavaScript, npm, webpack_
 
 *This webpage is licensed under the MIT license.*
 
-Copyright (c) 2020 **_Michelle Morin_**
+Copyright (c) 2020 **__**

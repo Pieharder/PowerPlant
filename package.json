@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "power_plant",
   "eslintConfig": {
     "plugins": [
       "fp"
@@ -17,7 +17,7 @@
     "debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "keywords": [],
-  "author": "Michelle Morin",
+  "author": "Brandan Sayarath, Zakkrey Short, Geoff Goetz",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
